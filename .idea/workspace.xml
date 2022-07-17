@@ -148,7 +148,7 @@
       <workItem from="1650818052133" duration="2000000" />
       <workItem from="1653123519231" duration="1007000" />
       <workItem from="1653824910279" duration="3123000" />
-      <workItem from="1658035678893" duration="839000" />
+      <workItem from="1658035678893" duration="1465000" />
     </task>
     <task id="LOCAL-00041" summary="chore: create basic class for encrypting texts using Chacha20poly1305">
       <created>1647171737592</created>
