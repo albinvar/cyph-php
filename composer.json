@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "albinvar/cyph",
+    "description": "This is my package cyph",
     "keywords": [
-        ":vendor_name",
-        ":package_slug"
+        "albinvar",
+        "cyph"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/albinvar/cyph",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Albin Varghese",
+            "email": "albin8285@gmail.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Cyph\\Cyph\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Cyph\\Cyph\\Tests\\": "tests"
         }
     },
     "scripts": {
