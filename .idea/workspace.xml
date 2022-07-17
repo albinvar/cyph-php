@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c758c34b-6988-4a12-8317-a3394f1134cc" name="Changes" comment="refactor: change architecture of cyph" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.1" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="25xGFlgaS42wPvp1YjtApvLHO3H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/phpunit.xml" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\cyph\tests\Adapters\Sodium\Symmetric" />
+      <recent name="C:\laragon\www\cyph\src\Adapters\Sodium\Symmetric" />
+      <recent name="C:\laragon\www\cyph\tests\KeyFactory" />
+      <recent name="C:\laragon\www\cyph\src\Exception" />
+      <recent name="C:\laragon\www\cyph\src\Adapters" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\cyph\tests\Sodium" />
+      <recent name="C:\laragon\www\cyph\src\Adapters" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="commandLineParameters" value="" />
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <option name="script" value="test-dev" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="commandLineParameters" value="" />
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <option name="script" value="test-dev" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CyphTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="Albinvar\Cyph\Tests\CyphTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/CyphTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" coverage_engine="PHPDBG" scope="XML" options="--testdox" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Composer Script.test" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+      <item itemvalue="PHPUnit.CyphTest" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c758c34b-6988-4a12-8317-a3394f1134cc" name="Changes" comment="" />
+      <created>1646461228608</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646461228608</updated>
+      <workItem from="1646461232398" duration="2440000" />
+      <workItem from="1646463757505" duration="7473000" />
+      <workItem from="1646489088896" duration="7597000" />
+      <workItem from="1646539896192" duration="15505000" />
+      <workItem from="1646568559427" duration="587000" />
+      <workItem from="1646569198869" duration="179000" />
+      <workItem from="1646569441257" duration="4152000" />
+      <workItem from="1646668003985" duration="1721000" />
+      <workItem from="1647053427097" duration="6271000" />
+      <workItem from="1647074754883" duration="523000" />
+      <workItem from="1647146829390" duration="3968000" />
+      <workItem from="1647162760860" duration="10313000" />
+      <workItem from="1647500401976" duration="2965000" />
+      <workItem from="1647520740088" duration="10369000" />
+      <workItem from="1647579740837" duration="878000" />
+      <workItem from="1647603155005" duration="1638000" />
+      <workItem from="1647707154413" duration="40000" />
+      <workItem from="1647707234818" duration="1171000" />
+      <workItem from="1648202449694" duration="3524000" />
+      <workItem from="1648209057219" duration="9259000" />
+      <workItem from="1648269572689" duration="805000" />
+      <workItem from="1648286162879" duration="2587000" />
+      <workItem from="1648294667965" duration="913000" />
+      <workItem from="1648912696043" duration="1515000" />
+      <workItem from="1649488104084" duration="1947000" />
+      <workItem from="1649518928416" duration="3900000" />
+      <workItem from="1649610126241" duration="2221000" />
+      <workItem from="1649820401494" duration="36000" />
+      <workItem from="1649820532938" duration="7885000" />
+      <workItem from="1649847631748" duration="9210000" />
+      <workItem from="1649860531731" duration="828000" />
+      <workItem from="1649861604902" duration="611000" />
+      <workItem from="1649865218467" duration="1034000" />
+      <workItem from="1650636069316" duration="808000" />
+      <workItem from="1650684860097" duration="604000" />
+      <workItem from="1650713458836" duration="6510000" />
+      <workItem from="1650721853625" duration="3121000" />
+      <workItem from="1650732978451" duration="2212000" />
+      <workItem from="1650769037385" duration="2699000" />
+      <workItem from="1650809730776" duration="939000" />
+      <workItem from="1650818052133" duration="2000000" />
+      <workItem from="1653123519231" duration="1007000" />
+      <workItem from="1653824910279" duration="3123000" />
+      <workItem from="1658035678893" duration="839000" />
+    </task>
+    <task id="LOCAL-00041" summary="chore: create basic class for encrypting texts using Chacha20poly1305">
+      <created>1647171737592</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1647171737592</updated>
+    </task>
+    <task id="LOCAL-00042" summary="test: rename few exception classes">
+      <created>1647171797826</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1647171797826</updated>
+    </task>
+    <task id="LOCAL-00043" summary="chore: create EncrypterInterface which should be implemented by all encryption classes">
+      <created>1647171854670</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1647171854670</updated>
+    </task>
+    <task id="LOCAL-00044" summary="chore: add generateNonce() to Core::class">
+      <created>1647171911420</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1647171911420</updated>
+    </task>
+    <task id="LOCAL-00045" summary="chore: create Exception class for all base errors occuring within the SodiumEncrypter class">
+      <created>1647171980373</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1647171980373</updated>
+    </task>
+    <task id="LOCAL-00046" summary="chore: create methods to set strategies [symmetric, asymmetric]">
+      <created>1647172129467</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1647172129467</updated>
+    </task>
+    <task id="LOCAL-00047" summary="chore: create a basic Encrypter class for symmetric encryption operations">
+      <created>1647172191076</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1647172191076</updated>
+    </task>
+    <task id="LOCAL-00048" summary="chore: add xchacha20-poly1305-ietf to supported ciphers array">
+      <created>1647172234264</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1647172234264</updated>
+    </task>
+    <task id="LOCAL-00049" summary="chore: remove few unnecessary methods form Cyph class">
+      <created>1647172278357</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1647172278357</updated>
+    </task>
+    <task id="LOCAL-00050" summary="chore: add few methods to set cipher as well as to validate ciphers">
+      <created>1647172360561</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1647172360561</updated>
+    </task>
+    <task id="LOCAL-00051" summary="style: php-cs-fix">
+      <created>1647173235803</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1647173235803</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat: change php version from 8.0 to 8.1">
+      <created>1648204430850</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1648204430850</updated>
+    </task>
+    <task id="LOCAL-00053" summary="chore: delete Sodium class">
+      <created>1648204466932</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1648204466932</updated>
+    </task>
+    <task id="LOCAL-00054" summary="chore: remove generateNonce method from Core class">
+      <created>1648204601784</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1648204601784</updated>
+    </task>
+    <task id="LOCAL-00055" summary="chore: remove methods for bypassing hierarchy errors temporarily">
+      <created>1648204680917</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1648204680917</updated>
+    </task>
+    <task id="LOCAL-00056" summary="chore: combine existing Sodium::class with SodiumAdapter class">
+      <created>1648204748013</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1648204748013</updated>
+    </task>
+    <task id="LOCAL-00057" summary="chore: create few basic methods to encode encrypted text and create a basic method to encrypt texts">
+      <created>1648204849758</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1648204849758</updated>
+    </task>
+    <task id="LOCAL-00058" summary="chore: create a new class for generating nonce values for the cipher">
+      <created>1648204996937</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1648204996937</updated>
+    </task>
+    <task id="LOCAL-00059" summary="chore: replace inheritance with sodium adapter">
+      <created>1648205030705</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1648205030705</updated>
+    </task>
+    <task id="LOCAL-00060" summary="chore: create specific classes foreach and every supported encryptions">
+      <created>1648205099891</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1648205099891</updated>
+    </task>
+    <task id="LOCAL-00061" summary="chore: replace inheritance with sodium adapter">
+      <created>1648205125680</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1648205125680</updated>
+    </task>
+    <task id="LOCAL-00062" summary="chore: replace inheritance with sodium adapter">
+      <created>1648205137914</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1648205137914</updated>
+    </task>
+    <task id="LOCAL-00063" summary="test: few temp bypasses">
+      <created>1648205270383</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1648205270383</updated>
+    </task>
+    <task id="LOCAL-00064" summary="test: add tests to generate nonce and key automatically">
+      <created>1648219065989</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1648219065989</updated>
+    </task>
+    <task id="LOCAL-00065" summary="chore: create constructor for SodiumAdapter.php">
+      <created>1648286911053</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1648286911053</updated>
+    </task>
+    <task id="LOCAL-00066" summary="chore: make constructor private to prevent calling class statically.">
+      <created>1649489075425</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1649489075425</updated>
+    </task>
+    <task id="LOCAL-00067" summary="chore: create seperate boot method for configuring sodium module.">
+      <created>1649489242300</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1649489242300</updated>
+    </task>
+    <task id="LOCAL-00068" summary="style: phpstorm code-cleanup">
+      <created>1649489292659</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1649489292659</updated>
+    </task>
+    <task id="LOCAL-00069" summary="tests: add comments for tests">
+      <created>1649525684054</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1649525684054</updated>
+    </task>
+    <task id="LOCAL-00070" summary="chore: remove unwanted constructor codes which overwrites cipher set through the cipher method.">
+      <created>1649611512544</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1649611512544</updated>
+    </task>
+    <task id="LOCAL-00071" summary="chore: create a boot function to check the prerequisites of the algorithm">
+      <created>1649611586466</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1649611586466</updated>
+    </task>
+    <task id="LOCAL-00072" summary="chore: create encryption class for chacha20poly1305 algorithm.">
+      <created>1649611647497</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1649611647497</updated>
+    </task>
+    <task id="LOCAL-00073" summary="tests: create basic tests for checking if encryption through the chacha20poly1305 algorithm.">
+      <created>1649611723035</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1649611723035</updated>
+    </task>
+    <task id="LOCAL-00074" summary="test: create basic tests for checking if encryption through the chacha20poly1305 algorithm.">
+      <created>1649831887815</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1649831887815</updated>
+    </task>
+    <task id="LOCAL-00075" summary="test: rebuild nonce factory which can automatically generate nonce based on the selected cipher">
+      <created>1649832159670</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1649832159670</updated>
+    </task>
+    <task id="LOCAL-00076" summary="feat: rebuild nonce factory which can automatically generate nonce based on the selected cipher">
+      <created>1649832208154</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1649832208154</updated>
+    </task>
+    <task id="LOCAL-00077" summary="feat: add class for aes-256-gcm cipher">
+      <created>1649856071417</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1649856071417</updated>
+    </task>
+    <task id="LOCAL-00078" summary="feat: add class for chacha20poly1305ietf cipher">
+      <created>1649856117092</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1649856117092</updated>
+    </task>
+    <task id="LOCAL-00079" summary="feat: add new cipher algorithms to generate keys and nonces">
+      <created>1649856257034</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1649856257034</updated>
+    </task>
+    <task id="LOCAL-00080" summary="chore: remove unwanted openssl file at root">
+      <created>1649856292453</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1649856292453</updated>
+    </task>
+    <task id="LOCAL-00081" summary="feat: add new ciphers to be used along the system">
+      <created>1649856356596</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1649856356596</updated>
+    </task>
+    <task id="LOCAL-00082" summary="feat: add new ciphers to be used for encryption process all along the system">
+      <created>1649856399858</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1649856399858</updated>
+    </task>
+    <task id="LOCAL-00083" summary="test: split test cases with a readable folder structure">
+      <created>1649856455546</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1649856455546</updated>
+    </task>
+    <task id="LOCAL-00084" summary="style: php-cs-fixer">
+      <created>1649856527653</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1649856527653</updated>
+    </task>
+    <task id="LOCAL-00085" summary="test: update tests for aes-256-gcm encryption">
+      <created>1650713839264</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1650713839264</updated>
+    </task>
+    <task id="LOCAL-00086" summary="test: comment out all tests">
+      <created>1650724448885</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1650724448885</updated>
+    </task>
+    <task id="LOCAL-00087" summary="test: replace pest php with phpunit">
+      <created>1650724494559</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1650724494559</updated>
+    </task>
+    <task id="LOCAL-00088" summary="test: rewrite phpunit.xml with new configurations">
+      <created>1650724543309</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1650724543309</updated>
+    </task>
+    <task id="LOCAL-00089" summary="refactor: change architecture of cyph">
+      <created>1653828593148</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1653828593149</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: create constructor for SodiumAdapter.php" />
+    <MESSAGE value="chore: make constructor private to prevent calling class statically." />
+    <MESSAGE value="chore: create seperate boot method for configuring sodium module." />
+    <MESSAGE value="style: phpstorm code-cleanup" />
+    <MESSAGE value="tests: add comments for tests" />
+    <MESSAGE value="chore: remove unwanted constructor codes which overwrites cipher set through the cipher method." />
+    <MESSAGE value="chore: create a boot function to check the prerequisites of the algorithm" />
+    <MESSAGE value="chore: create encryption class for chacha20poly1305 algorithm." />
+    <MESSAGE value="tests: create basic tests for checking if encryption through the chacha20poly1305 algorithm." />
+    <MESSAGE value="test: create basic tests for checking if encryption through the chacha20poly1305 algorithm." />
+    <MESSAGE value="test: rebuild nonce factory which can automatically generate nonce based on the selected cipher" />
+    <MESSAGE value="feat: rebuild nonce factory which can automatically generate nonce based on the selected cipher" />
+    <MESSAGE value="feat: add class for aes-256-gcm cipher" />
+    <MESSAGE value="feat: add class for chacha20poly1305ietf cipher" />
+    <MESSAGE value="feat: add new cipher algorithms to generate keys and nonces" />
+    <MESSAGE value="chore: remove unwanted openssl file at root" />
+    <MESSAGE value="feat: add new ciphers to be used along the system" />
+    <MESSAGE value="feat: add new ciphers to be used for encryption process all along the system" />
+    <MESSAGE value="test: split test cases with a readable folder structure" />
+    <MESSAGE value="style: php-cs-fixer" />
+    <MESSAGE value="test: update tests for aes-256-gcm encryption" />
+    <MESSAGE value="test: comment out all tests" />
+    <MESSAGE value="test: replace pest php with phpunit" />
+    <MESSAGE value="test: rewrite phpunit.xml with new configurations" />
+    <MESSAGE value="refactor: change architecture of cyph" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: change architecture of cyph" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Interfaces/CyphInterface.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cyph@phpunit_xml.xml" NAME="phpunit.xml Coverage Results" MODIFIED="1650733657084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/cyph@CyphtTest_php__encrypt_data_using_CHACHA20_POLY1305.xml" NAME="CyphtTest.php::encrypt data using CHACHA20_POLY1305 Coverage Results" MODIFIED="1646558323120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
