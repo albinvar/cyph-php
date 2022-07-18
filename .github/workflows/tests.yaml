@@ -2,7 +2,7 @@ name: phpunit tests
 
 on:
   push:
-    branches: [ 1.x, 1.x-dev ]
+    branches: [ 1.x, 1.x-dev, 1.x-workflows ]
   pull_request:
     branches: [ 1.x, 1.x-dev ]
 
@@ -11,9 +11,10 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    # specify php versions to be tested individually.
     strategy:
       matrix:
-        php-versions: [ '7.3', '7.4', '8.0' ]
+        php-versions: [ '7.3', '7.4', '8.0' '8.1']
 
     name: Test on PHP ${{ matrix.php-versions }}
     steps:
