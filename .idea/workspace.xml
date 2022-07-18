@@ -4,7 +4,18 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c758c34b-6988-4a12-8317-a3394f1134cc" name="Changes" comment="refactor: change architecture of cyph" />
+    <list default="true" id="c758c34b-6988-4a12-8317-a3394f1134cc" name="Changes" comment="chore: update composer.lock file">
+      <change afterPath="$PROJECT_DIR$/src/Sodium/Core/GenericHashCrypto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sodium/Core/KeyDerivationCrypto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sodium/Core/PwhashCrypto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sodium/Core/ShortInputHashCrypto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sodium/Core/SignCrypto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sodium/KeyExchangeCrypto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sodium/SealedBoxCrypto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sodium/SecretBoxCrypto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sodium/SecretStreamCrypto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +28,12 @@
     </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="1.x-dev" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -124,6 +140,7 @@
       <recent name="C:\laragon\www\cyph\src\Adapters" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\cyph\src\Sodium\Core" />
       <recent name="C:\laragon\www\cyph\tests\Sodium" />
       <recent name="C:\laragon\www\cyph\src\Adapters" />
     </key>
@@ -212,20 +229,8 @@
       <workItem from="1653123519231" duration="1007000" />
       <workItem from="1653824910279" duration="3123000" />
       <workItem from="1658035678893" duration="839000" />
-    </task>
-    <task id="LOCAL-00041" summary="chore: create basic class for encrypting texts using Chacha20poly1305">
-      <created>1647171737592</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1647171737592</updated>
-    </task>
-    <task id="LOCAL-00042" summary="test: rename few exception classes">
-      <created>1647171797826</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1647171797826</updated>
+      <workItem from="1658149440166" duration="595000" />
+      <workItem from="1658154689514" duration="2684000" />
     </task>
     <task id="LOCAL-00043" summary="chore: create EncrypterInterface which should be implemented by all encryption classes">
       <created>1647171854670</created>
@@ -556,7 +561,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653828593149</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="fix: syntax error">
+      <created>1658138021159</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1658138021159</updated>
+    </task>
+    <task id="LOCAL-00091" summary="chore: update composer.lock file">
+      <created>1658138772907</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1658138772907</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,8 +593,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="chore: create constructor for SodiumAdapter.php" />
-    <MESSAGE value="chore: make constructor private to prevent calling class statically." />
     <MESSAGE value="chore: create seperate boot method for configuring sodium module." />
     <MESSAGE value="style: phpstorm code-cleanup" />
     <MESSAGE value="tests: add comments for tests" />
@@ -599,7 +616,9 @@
     <MESSAGE value="test: replace pest php with phpunit" />
     <MESSAGE value="test: rewrite phpunit.xml with new configurations" />
     <MESSAGE value="refactor: change architecture of cyph" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: change architecture of cyph" />
+    <MESSAGE value="fix: syntax error" />
+    <MESSAGE value="chore: update composer.lock file" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: update composer.lock file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
