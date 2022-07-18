@@ -1,6 +1,10 @@
 <?php
 
-class Chacha20poly1305
+use Cyph\Cyph\Core\SymmetricCryptoInterface;
+
+namespace Cyph\Cyph\Core\Aead;
+
+class Chacha20poly1305 implements SymmetricCryptoInterface
 {
 
 }
