@@ -1,6 +1,6 @@
 <?php
 
-interface SymmetricCryptoInterface extends CryptoInterface
+interface SymmetricCryptoInterface extends CryptoInterface, KeyInterface
 {
 
 }
